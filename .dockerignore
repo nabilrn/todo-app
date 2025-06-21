@@ -1,0 +1,65 @@
+# Git files
+.git
+.gitignore
+
+# Gradle build outputs
+build/
+!build/libs/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Kotlin compilation
+.kotlin/
+*.class
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation and non-essential files
+README.md
+*.md
+docs/
+
+# Log files
+*.log
+logs/
+
+# Test reports
+test-results/
+reports/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if you have any frontend assets)
+node_modules/
+
+# Docker files themselves
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.yaml
+
+# CI/CD files
+.github/
+.gitlab-ci.yml
+Jenkinsfile
